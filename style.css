@@ -12,3 +12,7 @@ th,td{
     padding: 5px;
     text-align: center;
 }
+
+span{
+    text-decoration-line: underline;
+}
