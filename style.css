@@ -1,0 +1,14 @@
+main{
+    height: 1500px;
+}
+
+table{
+    border: 1px solid black;
+    padding: 1px;
+}
+
+th,td{
+    border: 1px solid black;
+    padding: 5px;
+    text-align: center;
+}

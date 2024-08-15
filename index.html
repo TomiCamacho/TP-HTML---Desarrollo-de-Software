@@ -3,9 +3,164 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>TP HTML - Desarrollo de Software</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <header>
+        <h1>Encabezado Principal</h1>
+        <ul>
+            <li><a href="#estructura">Estructura</a></li>
+            <li><a href="#multimedia">Multimedia</a></li>
+            <li><a href="#formulario">Formulario</a></li>
+        </ul>
+        <nav></nav>
+    </header>
+    <main>
+        <section id="estructura">
+            <div>
+                <h2>1. Estructura Básica del Documento HTML</h2>
+            </div>
+            <div>
+                <h5>Este documento HTML tiene una estructura básica que incluye la declaración de DOCTYPE, etiquetas de metadatos y un título</h3>
+            </div>
+        </section>
+        <section>
+            <div>
+                <h2>2. Encabezados y Propiedades del Texto</h2>
+            </div>
+            <div>
+                <h3><b>Este es un texto en negrita.</b></h3>
+                <h4><i>Este es un texto en cursiva</i></h4>
+                <h5><u>Este es un texto subrayado</u></h5>
+            </div>
+        </section>
+        <section>
+            <div>
+                <h2>3. Divisiones y Agrupación de Contenido</h2>
+            </div>
+            <div>
+                <div>
+                    <h4>Seccion 1</h5>
+                </div>
+                <div>
+                    <h6>Contenido de la primera sección agrupada en un div.</h5>
+                </div>
+            </div>
+            <div>
+                <div>
+                    <h4>Sección 2</h5>
+                </div>
+                <div>
+                    <h6>Contenido de la segunda sección agrupada en un div.</h6>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div>
+                <div>
+                    <h2>4. Enlaces y Listas</h2>
+                </div>
+                <div>
+                    <h4>Visita nuestro <a href="https://www.youtube.com/" target="_blank">sitio web</a> para más información.</h4>
+                </div>
+            </div>
+            <div>
+                <div>
+                    <div>
+                        <h4>Enlaces internos:</h4>
+                    </div>
+                    <div>
+                        <ul>
+                            <li><a href="#estructura">Estructura</a></li>
+                            <li><a href="#multimedia">Multimedia</a></li>
+                            <li><a href="#formulario">Formulario</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div>
+                    <div>
+                        <h4>Lista desordenada:</h4>
+                    </div>
+                    <div>
+                        <ul>
+                            <li>Primer ítem de una lista desordenada</li>
+                            <li>Segundo ítem de una lista desordenada</li>
+                        </ul>
+                    </div>
+                </div>
+                <div>
+                    <div>
+                        <h4>Lista ordenada:</h4>
+                    </div>
+                    <div>
+                        <ol>
+                            <li>Primer ítem de una lista ordenada</li>
+                            <li>Segundo ítem de una lista ordenada</li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <article id="multimedia">
+            <div>
+                <h2>5. Elementos Multimedia</h2>
+            </div>
+            <div>
+                <img src="https://th.bing.com/th/id/OIP.o-wNqCyhGc3XpFMfCCFpigAAAA?rs=1&pid=ImgDetMain" alt="Logo de HTML5"
+                width="300px"/>
+                <video src="https://videos.pexels.com/video-files/853919/853919-hd_1920_1080_25fps.mp4" 
+                width="300px"
+                muted
+                controls
+                ></video>
+                <audio src="https://download.blender.org/peach/trailer/trailer_1080p.ogg" controls></audio>
+            </div>
+        </article>
+        <section>
+            <div>
+                <h2>6. Tablas</h2>
+            </div>
+            <div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Columna 1</th>
+                            <th>Columna 2</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Dato 1</td>
+                            <td>Dato 2</td>
+                        </tr>
+                        <tr>
+                            <td>Dato 3</td>
+                            <td>Dato 4</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+        <section id="formulario">
+            <div>
+                <h2>7. Formulario</h2>
+            </div>
+            <div>
+                <form>
+                    <label>Nombre:</label>
+                    <input type="text" placeholder="Ingrese su nombre">
+                    <label>Email:</label>
+                    <input type="text" placeholder="Ingrese su email">
+                    <label>Mensaje:</label>
+                    <textarea></textarea>
+                    <button type="submit">Enviar</button>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <h4>2024 Trabajo Práctico de HTML</h4>
+    </footer>
 </body>
 </html>
